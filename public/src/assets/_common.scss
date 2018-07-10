@@ -1,9 +1,20 @@
 $b : #0275D8;
 $lb : #BEE1FF;
 $w : #fff;
+$bl : #000;
 
 %vertical{
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+%radiusBorder{
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+%inputBorder{
+    width: 100%;
+    @extend %radiusBorder;
+    border: 2px solid $bl;
+    font-size: 20px;
 }

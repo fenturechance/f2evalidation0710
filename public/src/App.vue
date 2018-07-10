@@ -24,9 +24,11 @@ export default {
         padding: 0;
         list-style: none;
         box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
     }
     #app{
-        max-width: 960px;
+        max-width: 600px;
         margin: auto;
         header{
             background-color: $b;
@@ -34,7 +36,19 @@ export default {
             height: 5px;
         }
         main{
-            padding: 100px 0;
+            padding: 50px 0;
+        }
+        .inputGroup{
+            display: flex;
+            justify-content: space-between;
+            .inputWrapper{
+                flex: 1;
+                margin-left: 10px;
+                &:first-child{
+                    margin-left: 0;
+                }
+
+            }
         }
     }
 </style>

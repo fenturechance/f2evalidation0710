@@ -6,8 +6,12 @@ import CreateAccount from './components/CreateAccount'
 import GeneralInfo from './components/GeneralInfo'
 import UpdatePic from './components/UpdatePic'
 import PaymentMethod from './components/PaymentMethod'
-import Progress from './components/Progress'
 import Finish from './components/Finish'
+import Progress from './components/sections/Progress'
+import Title from './components/sections/Title'
+import InputTitle from './components/sections/InputTitle'
+import Button from './components/sections/Button'
+import DateSelect from './components/sections/DateSelect'
 
 import fontawesome from '@fortawesome/fontawesome'
 import faSolid from '@fortawesome/fontawesome-free-solid'
@@ -17,6 +21,10 @@ import faBrands from '@fortawesome/fontawesome-free-brands'
 Vue.use(VueRouter);
 Vue.use(Vuex);
 Vue.component('Progress',Progress);
+Vue.component('Title',Title);
+Vue.component('InputTitle',InputTitle);
+Vue.component('Button',Button);
+Vue.component('DateSelect',DateSelect);
 
 const router = new VueRouter({
     routes : [
