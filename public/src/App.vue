@@ -43,11 +43,20 @@ export default {
             justify-content: space-between;
             .inputWrapper{
                 flex: 1;
-                margin-left: 10px;
-                &:first-child{
-                    margin-left: 0;
-                }
+                @extend %margin;
 
+            }
+        }
+        .inputTitle{
+            margin: 0 0 5px 0;
+            font-size: 20px;
+            .star{
+                font-weight: bold;
+            }
+        }
+        .selectGroup{
+            .inputWrapper{
+                margin-top: 5px;
             }
         }
     }

@@ -18,14 +18,7 @@ export default {
 <style lang="scss">
     @import '../../assets/common.scss';
     .inputWrapper{
-        margin: 30px 0 20px 0;
-        .inputTitle{
-            margin: 0 0 5px 0;
-            font-size: 20px;
-            .star{
-                font-weight: bold;
-            }
-        }
+        margin: 30px 0 30px 0;
         input{
             @extend %inputBorder;
         }

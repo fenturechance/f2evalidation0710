@@ -11,7 +11,7 @@ import Progress from './components/sections/Progress'
 import Title from './components/sections/Title'
 import InputTitle from './components/sections/InputTitle'
 import Button from './components/sections/Button'
-import DateSelect from './components/sections/DateSelect'
+import Select from './components/sections/Select'
 
 import fontawesome from '@fortawesome/fontawesome'
 import faSolid from '@fortawesome/fontawesome-free-solid'
@@ -24,7 +24,7 @@ Vue.component('Progress',Progress);
 Vue.component('Title',Title);
 Vue.component('InputTitle',InputTitle);
 Vue.component('Button',Button);
-Vue.component('DateSelect',DateSelect);
+Vue.component('Select',Select);
 
 const router = new VueRouter({
     routes : [
